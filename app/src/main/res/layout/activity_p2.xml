@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightskyblue"
+    android:padding="15dp"
+    tools:context=".P2Activity"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/palegoldenrod"
+            android:orientation="vertical"
+            android:padding="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/welcome"
+                android:textColor="@color/darkblue"
+                android:textSize="20sp"
+
+                />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/value"
+                android:inputType="number"
+                android:id="@+id/et_value"
+
+                />
+
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:entries="@array/currency_list_one"
+                android:id="@+id/sp_currency_one"
+
+                />
+
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:entries="@array/currency_list_two"
+                android:id="@+id/sp_currency_two"
+
+                />
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/convert"
+                android:id="@+id/bt_convert"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/result"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:id="@+id/tv_result"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/return_main"
+                android:id="@+id/bt_return"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

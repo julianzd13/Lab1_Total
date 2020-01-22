@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Lab1_Total</string>
+    <string name="hello">HELLO, WELCOME TO LAB 1 CHOOSE AN APP</string>
+    <string name="app1">Formulario de Registro</string>
+    <string name="app2">Conversor de Moneda</string>
+    <string name="app3">Calculadora Basica</string>
+    <string name="app4">Calculadora de resistencias</string>
+
+///////////////////PUNTO 1 REGISTRO///////////////////////////////////////////
+    <string name="user_name">User Name</string>
+    <string name="user_email">Email</string>
+    <string name="user_phon">Phone</string>
+    <string name="user_pass">Password</string>
+    <string name="user_rpass">Repeat Password</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="movies">Movies</string>
+    <string name="gym">GYM</string>
+    <string name="read">To Read</string>
+    <string name="shopping">Shopping</string>
+    <string name="birthdate">Date of Birth</string>
+    <string name="cities">City of Residence</string>
+    <string name="save">SAVE</string>
+    <string name="result">Result Data</string>
+    <string name="error_login">Some fields are Empty</string>
+    <string name="error_pass">Check your Pass</string>
+    <string name="gender">Gender</string>
+    <string name="user_city">User City</string>
+    <string name="return_main">Return</string>
+
+    <string-array name="city_list">
+        <item>Select City</item>
+        <item>Bogota</item>
+        <item>Cartagena</item>
+        <item>Manizales</item>
+        <item>Medellin</item>
+        <item>Pasto</item>
+    </string-array>
+
+////////////////////////////PUNTO 2 CONVERTIDOR /////////////////////////////////////////////////
+    <string name="welcome">Welcome to Currency Converter</string>
+    <string name="value">Value To Convert</string>
+    <string name="convert">Convert</string>
+    <string name="error_1">ERROR</string>
+
+    <string-array name="currency_list_one">
+        <item>Select Currency To convert</item>
+        <item>Dollar (US)</item>
+        <item>Euro</item>
+        <item>Peso (CO)</item>
+    </string-array>
+
+    <string-array name="currency_list_two">
+        <item>Select Currency Result</item>
+        <item>Dollar (US)</item>
+        <item>Euro</item>
+        <item>Peso (CO)</item>
+    </string-array>
+
+
+//////////////////////////////////PUNTO 3 CALCULADORA//////////////////////////////////////////////
+    <string name="result_P3">Result</string>
+
+
+/////////////////////////////PUNTO 4 RESISTENCIAS ///////////////////////////////////
+    <string name="colorb1">Select Band Color One</string>
+    <string name="colorb2">Select Band Color Two</string>
+    <string name="colorb3">Select Band Color Three</string>
+    <string name="colorb4">Select Band Color Four (%)</string>
+    <string name="clear">Clear</string>
+    <string name="hello_P4">Hello Word</string>
+    <string name="value_P4">Enter Value</string>
+    <string name="calcu">See Colors</string>
+    <string name="error_value">Invalid Value</string>
+
+
+
+
+</resources>
